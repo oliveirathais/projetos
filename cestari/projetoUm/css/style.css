@@ -1,5 +1,7 @@
 /** -- Projeto Desenvolvido por Thais Oliveira | @criandositespro | contato@criandositespro.com.br -- **/
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,10 @@
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.showcase {
     height: 100vh;
     width: 100%;
     display: flex;
@@ -17,35 +23,130 @@ body {
     background-image: url(../img/imagem-homem-celular.jpg);
     background-size: cover;
     background-position: center;
+    position: relative;
     background-repeat: no-repeat;
-    font-family: "Montserrat";
 }
 
-h1 {
+.showcase-content {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+}
+.showcase-content h1 {
     font-size: 3rem;
     text-transform: uppercase;
-    text-align: center;
     background-color: yellow;
-    margin-left: 35%;
-    margin-right: 35%;
     border-radius: 50px;
     margin-bottom: 2rem;
     font-weight: bold;
 }
 
-p {
-    font-size: 2rem;
-    margin-left: 25%;
-    margin-right: 25%;
+.showcase-content p {
+    font-size: 1.5rem;
     text-align: center;
     line-height: 48px;
     color: #fff;
-}
+   }
 
-span {
+.showcase-content span {
     background-color: yellow;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding: 2px 14px;
     border-radius: 50px;
     color: #000;
+}
+
+@media only screen and (min-width:320px) {
+    .showcase-content {
+        width: 85%;
+    }
+
+    .showcase-content h1 {
+        font-size: 1.5rem;
+    }
+    
+    .showcase-content p {
+        font-size: 0.8rem;
+        line-height: 24px;
+    }
+
+}
+
+@media only screen and (min-width:480px) {
+    .showcase-content {
+        width: 85%;
+    }
+
+    .showcase-content h1 {
+        font-size: 1.8rem;
+    }
+    
+    .showcase-content p {
+        font-size: 1rem;
+        line-height: 28px;
+    }
+
+}
+
+@media only screen and (min-width:600px) {
+    .showcase-content {
+        width: 85%;
+    }
+
+    .showcase-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .showcase-content p {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    .showcase-content {
+        width: 85%;
+    }
+
+    .showcase-content h1 {
+        font-size: 3rem;
+    }
+    
+    .showcase-content p {
+        font-size: 1.8rem;
+        line-height: 52px;
+    }
+
+}
+
+@media only screen and (min-width:1020px) {
+    .showcase-content {
+        width: 85%;
+    }
+
+    .showcase-content h1 {
+        font-size: 2.5rem;
+    }
+    
+    .showcase-content p {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+}
+
+@media only screen and (min-width:1280px) {
+    .showcase-content {
+        width: 55%;
+    }
+
+    .showcase-content h1 {
+        font-size: 3rem;
+    }
+    
+    .showcase-content p {
+        font-size: 1.5rem;
+        line-height: 48px;
+    }
+
 }
