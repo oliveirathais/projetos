@@ -14,11 +14,15 @@ body {
     align-items: center;
     flex-direction: column;
     vertical-align: middle;
+    font-family: "Montserrat";
+}
+
+.backgorund-site {
     background-image: url(../img/imagem-homem-celular.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    font-family: "Montserrat";
+
 }
 
 h1 {
@@ -49,3 +53,128 @@ span {
     border-radius: 50px;
     color: #000;
 }
+
+@media only screen and (min-width: 320px) {
+    
+    h1, p {
+        width: 85%;
+        margin: 8%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    p{
+        font-size: 0.8rem;
+        line-height: 24px;
+    }
+
+    .backgorund-site {
+        background-image: url(../img/imagem-homem-celular-mobile.jpg);
+        background-position: right;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    
+    h1, p {
+        width: 85%;
+        margin: 8%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 1rem;
+        line-height: 32px;
+    }
+
+    .backgorund-site {
+        background-image: url(../img/imagem-homem-celular-mobile.jpg);
+        background-position: right;
+        background-size: cover;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    h1, p {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 1.3rem;
+        line-height: 40px;
+    }
+
+    .backgorund-site {
+        background-image: url(../img/imagem-homem-celular-tablet.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+
+@media only screen and (min-width: 980px) {
+    h1, p {
+        width: 85%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 42px;
+    }
+
+    .backgorund-site {
+        background-image: url(../img/imagem-homem-celular-tablet.jpg);
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 1282px) {
+    h1, p {
+        width: 45%;
+        margin: auto;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 32px;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 42px;
+    }
+
+    .backgorund-site {
+        background-image: url(../img/imagem-homem-celular.jpg);
+        background-position: right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
